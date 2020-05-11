@@ -28,6 +28,9 @@ Due to insufficient computational power, the dataset was shrunk by a factor of 4
 
 The final model managed to attain a validation accuracy of 87%. All of the steps that were taken in order to achieve this are shown in the notebook, with comments and observations. The *grid_search.csv* file shows the histories of trainings generated during the execution of the grid-search algorithm.
 
+![Screenshot from 2020-05-12 00-58-30](https://user-images.githubusercontent.com/36303330/81620887-355c6000-93ed-11ea-84c1-1b11e6652f51.png)
+
+
 ## III - Prospects for improvement
 
 More computational power would have allowed to run a more complex grid-search over more epochs. Empirical tests were carried out to choose the set of values for each hyper-parameters for the grid-search algorithm. It seems like an even smaller learning rate over more epochs may have resulted in a better model. Moreover, it would have been more accurate to run the grid-search algorithm combined with a cross-validation for the hyper-parameter tuning. However, due to the lack of time and computational power, these weren't performed in the context of this project.
