@@ -20,7 +20,7 @@ In order to run the whole notebook, the following libraries are needed:
 - *csv*
 
 Moreover, to run the notebook, it is required to download the dataset and extract it in the **same folder** as the notebook and the *grid_search.csv* file.
-Unfortunately, to visualize the interactive plots made with *Plotly*, it is required to run the notebook on a jupyter environment. The plots cannot be visualized through the notebook on *Github*.
+Unfortunately, to visualize the interactive plots made with *Plotly*, it is required to run the notebook on a jupyter environment. The plots cannot be visualized through the notebook on *Github*. For this reason, screenshots of these plots have been added to the repository, in the folder *plotly plots*.
 
 Due to insufficient computational power, the dataset was shrunk by a factor of 4 in the context of this project. **Do not run** the cell which calls the *shrink()* function if you have sufficient computational power. With the train data shrunk by a factor of 4 and using a GPU for the computations, a single training over 30 epochs took almost 10 minutes, and the implemented grid-search algorithm took over 3 hours to run.
 
